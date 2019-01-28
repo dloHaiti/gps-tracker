@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <SwitchPreference
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:key="status"
         android:summaryOff="@string/settings_status_off_summary"
         android:summaryOn="@string/settings_status_on_summary"
@@ -12,6 +12,7 @@
 
     <EditTextPreference
         android:key="id"
+        android:defaultValue="@string/settings_id_default_value"
         android:title="@string/settings_id_title" />
 
     <EditTextPreference
