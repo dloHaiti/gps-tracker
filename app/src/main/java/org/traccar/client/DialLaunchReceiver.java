@@ -21,7 +21,7 @@ import android.content.Intent;
 
 public class DialLaunchReceiver extends BroadcastReceiver {
 
-    private static final String LAUNCHER_NUMBER = "8722227"; // TRACCAR
+    private static final String LAUNCHER_NUMBER = "35642484"; // DLOHAITI
 
     @Override
     public void onReceive(Context context, Intent intent) {
